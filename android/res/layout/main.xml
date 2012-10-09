@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" -->
+<!--     android:orientation="horizontal" -->
+<!--     android:layout_width="fill_parent" -->
+<!--     android:layout_height="fill_parent"> -->
+
+     
+<!--     <TextView -->
+<!--         android:id="@+id/lblCurrency" -->
+<!--         android:text="@string/currency" -->
+<!--         android:textSize="32sp" -->
+<!--         android:layout_width="wrap content" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_weight="1"/> -->
+<!--     <TextView -->
+<!--         android:id="@+id/output" -->
+<!--         android:text="@string/initial_value" -->
+<!--         android:textSize="32sp" -->
+<!--         android:layout_width="wrap content" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_weight="1"/> -->
+
+
+<!-- </LinearLayout> -->
+
+<!-- <TableLayout xmlns:android="http://schemas.android.com/apk/res/android" -->
+<!--     android:layout_width="fill_parent" -->
+<!--     android:layout_height="fill_parent" -->
+<!--     android:stretchColumns="1"> -->
+<!--     <TableRow> -->
+<!--         <TextView -->
+<!-- 	        android:id="@+id/lblCurrency" -->
+<!-- 	        android:text="@string/currency" -->
+<!-- 	        android:textSize="32sp" -->
+<!-- 	        android:gravity="right" -->
+<!-- 			android:padding="3dip" /> -->
+<!-- 	    <TextView -->
+<!-- 	        android:id="@+id/output" -->
+<!-- 	        android:text="@string/initial_value" -->
+<!-- 	        android:textSize="32sp" -->
+<!-- 	        android:gravity="left" -->
+<!-- 			android:padding="3dip" /> -->
+<!--     </TableRow> -->
+
+<!-- </TableLayout> -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center" >
+    
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:layout_centerVertical="true" >
+	    
+	    <TextView
+			android:id="@+id/lblCurrency"
+			android:text="@string/currency"
+			android:textSize="70sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+	
+		<TextView
+			android:id="@+id/output"
+			android:text="@string/initial_value"
+			android:textSize="70sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+		
+    </LinearLayout>
+
+</RelativeLayout>

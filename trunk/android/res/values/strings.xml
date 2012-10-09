@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="title">Main</string>
+    <string name="app_name">Balance Checker</string>
+    <string name="currency">RM: </string>
+    <string name="initial_value">0.00</string>
+</resources>
